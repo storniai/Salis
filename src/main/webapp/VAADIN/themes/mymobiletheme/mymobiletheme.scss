@@ -1,0 +1,52 @@
+/* This contains all of your theme. */
+/* If somebody wants to extend the theme she will include this mixin. */
+
+@mixin mymobiletheme {
+
+  /* Insert your theme rules here */
+  
+  	/** optiongroup */
+	/* Lay the options horizontally */
+	.v-select-optiongroup-horizontal .v-select-option {
+	    display: inline-block;
+	}
+	/* Avoid wrapping if the layout is too tight */
+	.v-select-optiongroup-horizontal {
+	    white-space: nowrap;
+	}
+	/* Some extra spacing is needed */
+	.v-select-optiongroup-horizontal .v-select-option.v-radiobutton {
+	    padding-right: 10px;
+	}
+	
+	.v-csslayout-home-goals {
+		background-color: #4285f4;	
+	}
+	
+	/* from bbc */
+	.team-name {
+		display: inline-block;
+		text-align: center;
+		padding-bottom: 10px;
+		font-size: 2em;
+		font-weight: bold;
+	}
+	
+	.goal-box {
+		background-color: #1087ff;
+		color: #fff;
+		font-size: 3em;
+		font-weight: bold;
+		display: inline-block;
+		text-align: center;
+		padding-top: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
+	
+	.text-center {
+		text-align: center;
+		display: inline-block;
+	}
+}

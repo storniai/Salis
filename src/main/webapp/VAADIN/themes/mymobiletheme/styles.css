@@ -1,0 +1,41 @@
+.mymobiletheme .v-select-optiongroup-horizontal .v-select-option {
+	display: inline-block;
+}
+
+.mymobiletheme .v-select-optiongroup-horizontal {
+	white-space: nowrap;
+}
+
+.mymobiletheme .v-select-optiongroup-horizontal .v-select-option.v-radiobutton {
+	padding-right: 10px;
+}
+
+.mymobiletheme .v-csslayout-home-goals {
+	background-color: #4285f4;
+}
+
+.mymobiletheme .team-name {
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 10px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.mymobiletheme .goal-box {
+	background-color: #1087ff;
+	color: #fff;
+	font-size: 3em;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.mymobiletheme .text-center {
+	text-align: center;
+	display: inline-block;
+}
